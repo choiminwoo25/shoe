@@ -1,5 +1,6 @@
 import React from "react";
 import "./MyPage.css";
+import proFile from "./assets/react.svg";
 
 function MyPage() {
   return (
@@ -33,16 +34,23 @@ function MyPage() {
         </aside>
 
         {/* 메인 영역 */}
-        <main className="main">
+       <main className="main">
           {/* 사용자 정보 */}
+          
           <div className="user-box">
-            <div>
-              <strong>5m08cs</strong>
-              <p>example@email.com</p>
-            </div>
-            <div>
+              <div className="left">
+                <div className="user-profile">
+                  <img src={proFile} alt="profile" />
+                </div> 
+
+                 <div className="user-info">
+                     <strong>5m08cs</strong>
+                     <p>example@email.com</p>
+                 </div>
+             </div>
+            <div className="user-bottons">
               <button>프로필 관리</button>
-              <button>내 수정</button>
+              <button>내 스타일</button>
             </div>
           </div>
 
