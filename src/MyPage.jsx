@@ -2,7 +2,7 @@ import React from "react";
 import "./MyPage.css";
 import proFile from "./assets/react.svg";
 
-function MyPage() {
+export default function MyPage() {
   return (
     <div className="container">
       {/* 헤더 */}
@@ -94,4 +94,4 @@ function MyPage() {
   );
 }
 
-export default MyPage;
+
