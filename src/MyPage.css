@@ -87,6 +87,8 @@ body {
 
 
 
+
+
 .user-profile {
   display: flex;
   align-items: center;
@@ -99,6 +101,8 @@ body {
   border-radius: 50%;
   background-color: #f5f5f5;
 }
+
+
 
 .user-info{
   text-align: left;

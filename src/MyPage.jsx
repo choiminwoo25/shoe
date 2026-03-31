@@ -38,16 +38,16 @@ function MyPage() {
           {/* 사용자 정보 */}
           
           <div className="user-box">
-              <div className="left">
+              <div className="left-group">
                 <div className="user-profile">
-                  <img src={proFile} alt="profile" />
-                </div> 
-
-                 <div className="user-info">
-                     <strong>5m08cs</strong>
-                     <p>example@email.com</p>
-                 </div>
-             </div>
+                  <img src={proFile} alt="profile"/>
+                </div>
+                <div className="user-info">
+                  <strong>홍길동</strong>
+                  <p>example@email.com</p>
+                </div>
+               
+              </div>
             <div className="user-bottons">
               <button>프로필 관리</button>
               <button>내 스타일</button>
@@ -59,7 +59,7 @@ function MyPage() {
             <h3>최근 본 상품</h3>
 
             <div className="item">
-              <img src="https://via.placeholder.com/80" alt="" />
+              <img src={proFile} alt="" />
               <div>
                 <p>Apple 2022 MacBook Air</p>
                 <span>100원</span>
@@ -67,7 +67,7 @@ function MyPage() {
             </div>
 
             <div className="item">
-              <img src="https://via.placeholder.com/80" alt="" />
+              <img src={proFile} alt="" />
               <div>
                 <p>Louis Vuitton Belt</p>
                 <span>100원</span>
@@ -75,7 +75,7 @@ function MyPage() {
             </div>
 
             <div className="item">
-              <img src="https://via.placeholder.com/80" alt="" />
+              <img src={proFile} alt="" />
               <div>
                 <p>Adidas Sneakers</p>
                 <span>100원</span>
